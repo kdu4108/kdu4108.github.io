@@ -125,7 +125,15 @@ a.video-button {
   background-color: #2bb39c;
 }
 
+a.slides-button {
+  background-color: #eab00f;
+}
+
 span.conference-name {
   font-style: italic;
 }
 
+p.proj-desc {
+  font-size: min(max(10px, 4vw), 18px);
+  margin-top: 0px;
+}
