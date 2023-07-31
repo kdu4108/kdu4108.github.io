@@ -6,6 +6,9 @@
     --displayfont: "Quicksand";
     /* --displayfont: "Quicksand"; */
     /* --displayfont: "Inter"; */
+
+    --bodycolor: #464646;
+    --displaycolor: #bc3909;
 }
 
 /* html { 
@@ -18,8 +21,8 @@ body {
     line-height: 1.45;
     font-size: min(max(16px, 4vw), 24px); 
     /* word-spacing: 5px; */
-    background-color: #fffff8;
-    color: #464646;
+    background-color: #FDF8F0;
+    color: var(--bodycolor);
     overflow-wrap: break-word;
     /* letter-spacing: 0.5px; */
     /* word-spacing: 2.5px; */
@@ -40,19 +43,23 @@ h1, h2, h3, h4, h5, h6 {
     margin-top: 100px;
     /* margin-left: 40px; */
   }
-  
+
   .title {
-    color: #bc3909;
+    /* color: #bc3909; */
+    color: var(--displaycolor);
     font-family: var(--displayfont), cursive;
-    font-size: 40px;
-    /* font-weight: bold; */
-    padding-bottom: 30px;
+    font-size: 48px;
+    font-weight: bold;
   }
   
   .nav {
     padding-top: 15px;
     padding-bottom: 30px;
   }
+
+  /* .nav-url {
+    color: #001233;
+  } */
 
   .first-nav {
     padding-left: 0px!important;
@@ -65,20 +72,24 @@ h1, h2, h3, h4, h5, h6 {
   }
 
   .intro {
-    color: #09BC46;
-    font-family: var(--displayfont), cursive;
+    /* color: var(--displaycolor); */
+    /* font-family: var(--displayfont), cursive; */
+    color: var(--bodycolor);
+    font-family: var(--bodycolor), cursive;
     padding-bottom: 30px;
   }
   
   .links {
     padding-top: 30px;
-    color: #09BC46;
+    /* color: #09BC46; */
+    color: var(--displaycolor);
     font-family: var(--bodyfont), cursive;
     font-size: 20px;
     padding-bottom: 30px;
   }
   
   .links a {
+    /* color: var(--displaycolor); */
     color: #09BC46;
     display: inline-block;
     padding: 0px 10px 0px 10px;
