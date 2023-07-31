@@ -1,0 +1,131 @@
+:root {
+    /* --bodyfont: "Buenard"; */
+    /* --bodyfont: "Ovo"; */
+    /* --bodyfont: "Crimson Pro"; */
+    --bodyfont: "Lora";
+    --displayfont: "Quicksand";
+    /* --displayfont: "Quicksand"; */
+    /* --displayfont: "Inter"; */
+}
+
+/* html { 
+    font-size: min(max(16px, 4vw), 22px); 
+    background-color: #fffff8;
+} */
+
+body {
+    font-family: var(--bodyfont), cursive;
+    line-height: 1.45;
+    font-size: min(max(16px, 4vw), 24px); 
+    /* word-spacing: 5px; */
+    background-color: #fffff8;
+    color: #464646;
+    overflow-wrap: break-word;
+    /* letter-spacing: 0.5px; */
+    /* word-spacing: 2.5px; */
+}
+
+p {
+    margin-top: 20px;
+    margin-bottom: 20px;
+}
+
+h1, h2, h3, h4, h5, h6 { 
+    margin-top: 8%; 
+    margin-bottom: -1%; 
+}
+
+  .container {
+    max-width: 800px;
+    margin-top: 100px;
+    /* margin-left: 40px; */
+  }
+  
+  .title {
+    color: #bc3909;
+    font-family: var(--displayfont), cursive;
+    font-size: 40px;
+    /* font-weight: bold; */
+    padding-bottom: 30px;
+  }
+  
+  .nav {
+    padding-top: 15px;
+    padding-bottom: 30px;
+  }
+
+  .first-nav {
+    padding-left: 0px!important;
+  }
+
+  .pic {
+    max-width: 100%;
+    max-height: 100%;
+    height: auto;
+  }
+
+  .intro {
+    color: #09BC46;
+    font-family: var(--displayfont), cursive;
+    padding-bottom: 30px;
+  }
+  
+  .links {
+    padding-top: 30px;
+    color: #09BC46;
+    font-family: var(--bodyfont), cursive;
+    font-size: 20px;
+    padding-bottom: 30px;
+  }
+  
+  .links a {
+    color: #09BC46;
+    display: inline-block;
+    padding: 0px 10px 0px 10px;
+  }
+  
+  .links a:first-child {
+    padding: 0px 10px 0px 0px;
+  }
+
+  /* Publications */
+  .list-publications {
+    /* font-weight: bold; */
+    font-size: min(max(10px, 4vw), 18px);
+  }
+
+  .publication {
+    margin-bottom: 20px;
+  }
+
+  a.link-button {
+    display: inline-block;
+    padding: 0.3em 0.3em;
+    margin: 0;
+    border-radius: 0.3em;
+    box-sizing: border-box;
+    text-decoration: none;
+    font-weight: 300;
+    font-size: 11pt;
+    color: #FFFFFF;
+    text-align: center;
+    transition: all 0.2s;
+    opacity: 1;
+}
+
+a.paper-button {
+  background-color: #c0392b;
+}
+
+a.code-button {
+  background-color: #542bb3;
+}
+
+a.video-button {
+  background-color: #2bb39c;
+}
+
+span.conference-name {
+  font-style: italic;
+}
+
