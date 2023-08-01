@@ -84,7 +84,7 @@ h1, h2, h3, h4, h5, h6 {
     /* color: #09BC46; */
     color: var(--displaycolor);
     font-family: var(--bodyfont), cursive;
-    font-size: 20px;
+    /* font-size: 20px; */
     padding-bottom: 30px;
   }
   
